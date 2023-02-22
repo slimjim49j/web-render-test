@@ -453,7 +453,7 @@
       let str = `Hello! This is a prototype text editor built in C++ compiled to WASM
 and hardware accelerated by WebGL.
 This project focuses on using a very minimal set of dependencies to achieve the output.
-Use arrow keys to navigate.
+Use arrow keys and scroll to navigate.
 
 Completed:
  * better glyphs (with stb_truetype and wasi-libc)
