@@ -459,7 +459,12 @@ Completed:
  * enabled subpixel oversampling + kerning
  * bilinear interpolation
  * basic scrolling
- * basic text cursor`;
+ * basic text cursor
+ 
+Todo:
+ * mouse interaction
+ * cursor highlight
+ * expanded unicode support`;
       if (strRes.status === "fulfilled") {
         str = strRes.value;
       } else {
