@@ -4,10 +4,10 @@
     return Promise.reject();
   }
   function reqWasm(memory) {
-    return WebAssembly.instantiateStreaming(fetch("/fe/assets/main.wasm"), { env: { memory } });
+    return WebAssembly.instantiateStreaming(fetch("/web-render-test/fe/assets/main.wasm"), { env: { memory } });
   }
   function reqFont() {
-    return fetch("/fe/assets/LiberationSans-Regular.ttf").then((r) => r.arrayBuffer());
+    return fetch("/web-render-test/fe/assets/LiberationSans-Regular.ttf").then((r) => r.arrayBuffer());
   }
 
   // fe/code/matrix.ts
