@@ -450,7 +450,8 @@
       reqFont()
     ]).then(([strRes, wasmRes, fontRes]) => {
       const fontBuffer = new Uint8Array(fontRes.value);
-      let str = `Hello! This is a prototype text editor built in C++ compiled to WASM and hardware accelerated by WebGL.
+      let str = `Hello! This is a prototype text editor built in C++ compiled to WASM
+and hardware accelerated by WebGL.
 This project focuses on using a very minimal set of dependencies to achieve the output.
 Use arrow keys to navigate.
 
