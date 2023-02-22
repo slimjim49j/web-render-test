@@ -451,10 +451,11 @@
     ]).then(([strRes, wasmRes, fontRes]) => {
       const fontBuffer = new Uint8Array(fontRes.value);
       let str = `Hello! This is a prototype text editor built in C++ compiled to WASM and hardware accelerated by WebGL.
+This project focuses on using a very minimal set of dependencies to achieve the output.
 Use arrow keys to navigate.
 
 Completed:
- * better glyphs (with stb_truetype)
+ * better glyphs (with stb_truetype and wasi-libc)
  * wasm integration
  * enabled subpixel oversampling + font kerning
  * bilinear interpolation
